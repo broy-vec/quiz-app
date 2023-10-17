@@ -1,0 +1,223 @@
+[
+    {
+        "question":"What is the value of 2+3?",
+        "options":[
+            {
+                "ans":"5",
+                "isCorrect":true
+            
+            },
+            {
+                "ans":"6",
+                "isCorrect":false
+            },
+            {
+                "ans":"7",
+                "isCorrect":false
+            },
+            {
+                "ans":"8",
+                "isCorrect":false
+            }
+        ]
+    },
+    {
+        "question":"What is the full form of HTML?",
+        "options":[
+            {
+                "ans":"HyperText Marking Language",
+                "isCorrect":false
+            
+            },
+            {
+                "ans":"HyperText Markup Language",
+                "isCorrect":true
+            },
+            {
+                "ans":"HiText Mark Language",
+                "isCorrect":false
+            },
+            {
+                "ans":"Hyper Mark Lang",
+                "isCorrect":false
+            }
+        ]
+    },
+    {
+        "question":"What is the full form of CSS?",
+        "options":[
+            {
+                "ans":"Cascading StyleSheet",
+                "isCorrect":true
+            
+            },
+            {
+                "ans":"Cascade Styling",
+                "isCorrect":false
+            },
+            {
+                "ans":"Cascade Styling Sheets",
+                "isCorrect":false
+            },
+            {
+                "ans":"Caracde Stylesheets",
+                "isCorrect":false
+            }
+        ]
+    },
+    {
+        "question":"JSX allows us to write _____.",
+        "options":[
+            {
+                "ans":"jQuery in React",
+                "isCorrect":true
+            
+            },
+            {
+                "ans":"Angular Code in React",
+                "isCorrect":false
+            },
+            {
+                "ans":"MySQL in React",
+                "isCorrect":false
+            },
+            {
+                "ans":"HTML in React",
+                "isCorrect":true
+            }
+        ]
+    },
+    {
+        "question":"JSX stands for _____.",
+        "options":[
+            {
+                "ans":"JSON",
+                "isCorrect":false
+            
+            },
+            {
+                "ans":"JSON XML",
+                "isCorrect":false
+            },
+            {
+                "ans":"JavaScript XML",
+                "isCorrect":true
+            },
+            {
+                "ans":"JavaScript and AngularJS",
+                "isCorrect":false
+            }
+        ]
+    },
+    {
+        "question":"How many elements can a valid react component return?",
+        "options":[
+            {
+                "ans":"2",
+                "isCorrect":false
+            
+            },
+            {
+                "ans":"1",
+                "isCorrect":true
+            },
+            {
+                "ans":"0",
+                "isCorrect":false
+            },
+            {
+                "ans":"Infinite",
+                "isCorrect":false
+            }
+        ]
+    },
+    {
+        "question":"What is Babel?",
+        "options":[
+            {
+                "ans":"JavaScript compiler",
+                "isCorrect":true
+            
+            },
+            {
+                "ans":"JavaScript interpreter",
+                "isCorrect":false
+            },
+            {
+                "ans":"JavaScript assembler",
+                "isCorrect":false
+            },
+            {
+                "ans":"None of the above",
+                "isCorrect":false
+            }
+        ]
+    },
+    {
+        "question":"In which language is React.js written?",
+        "options":[
+            {
+                "ans":"Python",
+                "isCorrect":false
+            
+            },
+            {
+                "ans":"Java",
+                "isCorrect":false
+            },
+            {
+                "ans":"JavaScript",
+                "isCorrect":true
+            },
+            {
+                "ans":"Php",
+                "isCorrect":false
+            }
+        ]
+    },
+    {
+        "question":"Identify the one which is used to pass data to components from outside",
+        "options":[
+            {
+                "ans":"Render with arguments",
+                "isCorrect":false
+            
+            },
+            {
+                "ans":"setState",
+                "isCorrect":false
+            },
+            {
+                "ans":"propTypes",
+                "isCorrect":false
+            },
+            {
+                "ans":"props",
+                "isCorrect":true
+            }
+        ]
+    },
+    {
+        "question":"PEP stands for",
+        "options":[
+            {
+                "ans":"Python Enhancement Program",
+                "isCorrect":false
+            
+            },
+            {
+                "ans":"Python Embedded Program",
+                "isCorrect":false
+            },
+            {
+                "ans":"Python Enhancement Proposal",
+                "isCorrect":true
+            },
+            {
+                "ans":"Python Embeeded Proposal",
+                "isCorrect":false
+            }
+        ]
+    }
+
+]

@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import questions from "./data/questions.json"
+import Header from "./components/Header"
+import "./App.css"
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div>
+      <Header/>
+      <ol>
+      {
+        questions.map((item,index)=>{
+          return(
+            <>
+            <li key={index}><h3>{item.question}</h3></li>
+            <ul>
+            {
+              item.options.map((answer,ind)=>(
+                <li key={ind} >{answer.ans}</li>
 
-export default App;
+              ))
+            }
+           </ul>
+            </>
+          )
+        })
+      }
+      </ol>
+
+<button>Submit</button>
+    </div>
+  )
+}
